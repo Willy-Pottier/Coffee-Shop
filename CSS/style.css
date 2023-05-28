@@ -1,0 +1,164 @@
+* {
+	font-family: 'Roboto Condensed', sans-serif;
+	/*border: red solid 1px !important;*/
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+	background-color: #EEDCC8;
+}
+
+header {
+	max-width: 100%;
+}
+
+header .header_content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 37px;
+}
+
+.changecolortitle {
+	color: #EC8013;
+}
+
+.logo {
+	color: #180A06;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+/*NAVBAR DESKTOP*/
+
+.navbar {
+	width: 50%;
+}
+
+.navbar nav {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 10%;
+	font-size: 28px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+}
+
+.navbar nav ul {
+	display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    width: 100%;
+}
+
+/*NAVBAR DESKTOP*/
+
+/*BUTTON*/
+
+.button {
+	background: #FFFAF4;
+	width: 180px;
+	border: 2px solid #180A06;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 30px;
+	font-weight: 700;
+	font-size: 24px;
+	box-shadow: 5px 5px 0px #180A06;
+}
+
+.button:hover {
+	background: #180A06;
+	border: 2px solid #180A06;
+	border-radius: 4px;
+	color: #EC8013;
+	box-shadow: none;
+}
+
+/*BUTTON*/
+
+a {
+	color: #180A06;
+}
+
+.image_hero {
+	position: absolute;
+	width: 100%;
+	height: 1280px;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#background-hero {
+	height: 100vw;
+	width: 100%;
+	background-image: url('./background-hero.jpg');
+	background-color: rgba(245, 229, 216, 0.7);
+	background-blend-mode: overlay;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hero-content {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30%;
+}
+
+.hero-content h2 {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.hero-content p {
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 12px;
+	margin-bottom: 42px;
+}
+
+.containersection1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.containersection1 h2 {
+	margin-top: 130px;
+}
+
+.cheminducafe {
+	display: flex;
+	flex-direction: column;
+}
+
+.up {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.parcours {
+	background: url(./Parcours.png);
+}
