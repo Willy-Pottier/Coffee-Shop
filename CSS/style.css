@@ -1,6 +1,6 @@
 * {
 	font-family: 'Roboto Condensed', sans-serif;
-	border: red solid 1px !important;
+	/*border: red solid 1px !important;*/
 	list-style: none;
 	text-decoration: none;
 }
@@ -149,6 +149,7 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	height: 1000px;
 }
 
 .containersection1 h2 {
@@ -158,10 +159,11 @@ a {
 .cheminducafe {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 900px;
+	height: 640px;
+	position: relative;
+	top: 90px;
 }
 
 .up, .down {
@@ -171,6 +173,10 @@ a {
 	justify-content: space-between;
 	width: 1200px;
 	height: 109px;
+}
+
+.down {
+	width: 1400px;
 }
 
 .up-container, .down-container {
@@ -195,6 +201,21 @@ a {
 	flex-direction: column;
 }
 
+.down-container :nth-child(2) {
+	display: flex;
+	flex-direction: column;
+}
+
+.first, .third {
+	width: 350px;
+    height: 110px;
+}
+
+.second {
+	width: 380px;
+	height: 110px;
+}
+
 .h3-cheminducafe {
 	padding: 0;
 	margin: 0;
@@ -207,4 +228,37 @@ a {
 	max-width: 1149px;
 	height: 200px;
 	justify-content: center;
+}
+
+/* BAND SVG */
+
+.band-svg {
+	background-image: url('./bandsvg.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 250px;
+}
+
+/* PRODUCT CARD */
+
+.best-coffee {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 146px;
+}
+
+.container-card {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 442px;
+	height: 560px;
 }
